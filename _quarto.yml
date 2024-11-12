@@ -17,10 +17,10 @@ website:
   # cookie-consent: 
   #   type: express
   #   style: interstitial
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
+  # navbar:
+  #   left:
+      # - href: index.qmd
+      #   text: Home
       # - href: examples.qmd
       #   text: Examples
 

@@ -28,7 +28,6 @@ Some text
 
 :::
 
-
 ::: {#index-text}
 ## Design Principles
 
@@ -50,7 +49,12 @@ Add logos of TIs
 
 :::
 
+::: {#index-text}
+## Contribute
 
+Add contact form
+
+:::
 
 
 
