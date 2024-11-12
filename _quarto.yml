@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "econdataverse"
+  description: "An ecosystem of packages to work with economic data in R and Python"
+  site-url: https://www.econdataverse.org
+  search: false
+  page-navigation: false
+  # favicon: assets/img/favicon.ico
+  # google-analytics: 
+  #   tracking-id: "G-YQF6MZY01S"
+  #   storage: cookies
+  #   anonymize-ip: true
+  #   version: 4
+  # cookie-consent: 
+  #   type: express
+  #   style: interstitial
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      # - href: examples.qmd
+      #   text: Examples
+
+format:
+  html:
+    theme: cosmo
+    css: assets/css/styles-global.css
+    toc: false
+    smooth-scroll: true
+    from: markdown+emoji
+    include-after-body: assets/html/bottom-footer.html

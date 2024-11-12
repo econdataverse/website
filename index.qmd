@@ -1,0 +1,51 @@
+---
+metadata:
+  pagetitle: "econdataverse"
+  description-meta: "An ecosystem of packages to work with economic data in R and Python."
+format: 
+  html:
+    include-in-header: 
+      - assets/html/header-particles.html
+    include-after-body: 
+      - assets/html/bottom-particles.html
+    css:
+      - assets/css/styles-index.css
+---
+
+::: {#particles-js}
+
+:::
+
+::: {#index-text}
+## Goal
+
+Some text
+
+:::
+
+
+::: {#index-text}
+## Design Principles
+
+Some text
+
+:::
+
+::: {#index-text}
+## Roadmap
+
+There will be a table here
+
+:::
+
+::: {#index-text}
+## Sponsors
+
+Add logos of TIs
+
+:::
+
+
+
+
+
