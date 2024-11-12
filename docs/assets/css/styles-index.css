@@ -1,34 +1,26 @@
+/* Body styling */
 body {
     background-color: white;
     overflow-x: hidden;
-  }
-
-  #particles-js {
-    position: relative;
-    width: 100vw;
-    height: 50vh;
-    background-color: black;
-    background-repeat: no-repeat;
-    z-index: 1;
-  }
+}
   
-  .content {
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    margin-top: 0px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  #quarto-document-content {
+#quarto-document-content {
     padding-top: 0px;
-  }
+}
 
-  #index-text {
+/* Text styling */
+#particles-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    z-index: 2;
+}
+
+#index-text {
     position: relative;
     left: 50%;
     transform: translate(-50%, 25%);
@@ -38,8 +30,55 @@ body {
     max-width: 50%;
     margin: 16px;
     padding: 8px;
+}
+
+@media (max-width: 480px) {
+    #particles-text { 
+        max-width: 100%;
+        margin: 8px;
+    }
+    #index-text {
+        max-width: 100%;
+        margin: 8px;
+    }
   }
 
-  h2 {
+h2 {
     border-bottom: 0px;
+}
+
+#particles-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--font-color);
+    background-color: white;
+    text-align: center;
+    z-index: 2;
+    max-width: 50%;
+    padding: 8px;
+    font-size: 1em;
+}
+
+/* Particles styling */
+#particles-js {
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    z-index: 1;
+} 
+
+.content {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
   }

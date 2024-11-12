@@ -13,7 +13,12 @@ format:
 ---
 
 ::: {#particles-js}
+::: {#particles-text}
+## econdataverse
 
+Some text 
+
+:::
 :::
 
 ::: {#index-text}
