@@ -17,12 +17,16 @@ website:
   # cookie-consent: 
   #   type: express
   #   style: interstitial
-  # navbar:
-  #   left:
-      # - href: index.qmd
-      #   text: Home
-      # - href: examples.qmd
-      #   text: Examples
+  navbar:
+    left:
+      - href: index.qmd#goal
+        text: Goal
+      - href: index.qmd#roadmap
+        text: Roadmap
+      - href: index.qmd#principles
+        text: Principles
+      - href: index.qmd#sponsors
+        text: Sponsors
 
 format:
   html:

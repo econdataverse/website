@@ -36,6 +36,10 @@ h2 {
     border-bottom: 0px;
 }
 
+h3 {
+    font-size: larger;
+}
+
 #particles-text {
     position: absolute;
     top: 50%;

@@ -25,6 +25,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -59,11 +60,47 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="assets/css/styles-index.css">
 </head>
 
-<body class="fullcontent">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">econdataverse</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#goal"> 
+<span class="menu-text">Goal</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#roadmap"> 
+<span class="menu-text">Roadmap</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#principles"> 
+<span class="menu-text">Principles</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#sponsors"> 
+<span class="menu-text">Sponsors</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
@@ -85,34 +122,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="goal" class="level2">
 <h2 class="anchored" data-anchor-id="goal">Goal</h2>
 <p>The landscape of economic data tools is <strong>fragmented</strong>, with packages differing widely in design, syntax, and usability, which can be a significant barrier for analysts and researchers who rely on multi-source data. These <strong>inconsistencies</strong> make it challenging to switch between sources and often require users to invest time in learning multiple interfaces or reformatting data, diverting attention from analysis and insight generation.</p>
-<p>The econdataverse addresses these challenges by establishing a <strong>standardized</strong>, <strong>cross-language</strong> framework, enabling users to access, explore, and analyze economic data seamlessly. Through consistent function names, tidy data outputs, and multi-language support, the econdataverse exists to eliminate these common pain points, empowering users to <strong>focus on research</strong> and <strong>analysis</strong> rather than data wrangling.</p>
-</section>
-<section id="design-principles" class="level2">
-<h2 class="anchored" data-anchor-id="design-principles">Design Principles</h2>
-<section id="consistent-interface" class="level3">
-<h3 class="anchored" data-anchor-id="consistent-interface">Consistent Interface</h3>
-<p>Every package within the econdataverse follows a standardized interface with <strong>predictable patterns</strong>. For instance, functions for data retrieval are named consistently: <code>*_get</code> functions retrieve data from a specific source, <code>*_list</code> functions enumerate available resources.</p>
-</section>
-<section id="coding-style" class="level3">
-<h3 class="anchored" data-anchor-id="coding-style">Coding Style</h3>
-<p>For R packages, the econdataverse adopts the tidyverse coding style and enforces it through <code>{lintr}</code>. For Python, we use the same naming conventions, but respect style conventions layout out in PEP 8. These styles enhance the <strong>readability</strong> of code and align with the practices of users familiar with the corresponding language.</p>
-</section>
-<section id="tidy-data-outputs" class="level3">
-<h3 class="anchored" data-anchor-id="tidy-data-outputs">Tidy Data Outputs</h3>
-<p>All packages return data in a tidy format, with each variable as a column, each observation as a row, and each data type as a table. Defaulting to tidy data ensures <strong>compatibility</strong> with popular data manipulation and visualization libraries in both R and Python.</p>
-</section>
-<section id="comprehensive-unit-testing" class="level3">
-<h3 class="anchored" data-anchor-id="comprehensive-unit-testing">Comprehensive Unit Testing</h3>
-<p>Each package is thoroughly tested through extensive unit tests, which ensure consistent functionality, protect against regressions, and help users <strong>trust</strong> that the packages will work as expected across different environments.</p>
-</section>
-<section id="open-source-licensing" class="level3">
-<h3 class="anchored" data-anchor-id="open-source-licensing">Open-Source Licensing</h3>
-<p>All packages are released under the MIT License, which permits wide usage and modification. The MIT License promotes <strong>transparency</strong>, allowing users to freely adapt the tools for their specific needs while contributing improvements to the community.</p>
-</section>
-<section id="multi-language-compatibility" class="level3">
-<h3 class="anchored" data-anchor-id="multi-language-compatibility">Multi-Language Compatibility</h3>
-<p>Wherever feasible, econdataverse interfaces are designed to work across languages. Consistency across languages enables analysts and researchers to incorporate these tools into various projects, regardless of language preference, and fosters a <strong>collaborative</strong>, multi-lingual community.</p>
-</section>
+<p>The econdataverse addresses these challenges by establishing a <strong>standardized</strong>, <strong>cross-language</strong> framework, enabling users to access, explore, and analyze economic data seamlessly. Through consistent function names, tidy data outputs, and multi-language support, the econdataverse eliminates these common pain points, empowering users to <strong>focus on research</strong> and <strong>analysis</strong> rather than data cleaning.</p>
 </section>
 <section id="roadmap" class="level2">
 <h2 class="anchored" data-anchor-id="roadmap">Roadmap</h2>
@@ -169,7 +179,34 @@ ul.task-list li input[type="checkbox"] {
 </table>
 </div>
 <p>… and many more to come!</p>
-<p>If you want to <strong>contribute a package</strong> that you maintain, please reach out.</p>
+<p>If you want to <strong>contribute a package</strong> that you maintain, please create an issue on <a href="https://github.com/tidy-intelligence/econdataverse/issues">GitHub</a>.</p>
+</section>
+<section id="design-principles" class="level2">
+<h2 class="anchored" data-anchor-id="design-principles">Design Principles</h2>
+<section id="consistent-interface" class="level3">
+<h3 class="anchored" data-anchor-id="consistent-interface">Consistent Interface</h3>
+<p>Every package within the econdataverse follows a standardized interface with <strong>predictable patterns</strong>. For instance, functions for data retrieval are named consistently: <code>*_get</code> functions retrieve data from a specific source, <code>*_list</code> functions enumerate available resources.</p>
+</section>
+<section id="coding-style" class="level3">
+<h3 class="anchored" data-anchor-id="coding-style">Coding Style</h3>
+<p>For R packages, the econdataverse adopts the tidyverse coding style and enforces it through <code>{lintr}</code>. For Python, we use the same naming conventions, but respect style conventions layout out in PEP 8. These styles enhance the <strong>readability</strong> of code and align with the practices of users familiar with the corresponding language.</p>
+</section>
+<section id="tidy-data-outputs" class="level3">
+<h3 class="anchored" data-anchor-id="tidy-data-outputs">Tidy Data Outputs</h3>
+<p>All packages return data in a tidy format, with each variable as a column, each observation as a row, and each data type as a table. Defaulting to tidy data ensures <strong>compatibility</strong> with popular data manipulation and visualization libraries in both R and Python.</p>
+</section>
+<section id="comprehensive-unit-testing" class="level3">
+<h3 class="anchored" data-anchor-id="comprehensive-unit-testing">Comprehensive Unit Testing</h3>
+<p>Each package is thoroughly tested through extensive unit tests, which ensure consistent functionality, protect against regressions, and help users <strong>trust</strong> that the packages will work as expected across different environments.</p>
+</section>
+<section id="open-source-licensing" class="level3">
+<h3 class="anchored" data-anchor-id="open-source-licensing">Open-Source Licensing</h3>
+<p>All packages are released under the MIT License, which permits wide usage and modification. The MIT License promotes <strong>transparency</strong>, allowing users to freely adapt the tools for their specific needs while contributing improvements to the community.</p>
+</section>
+<section id="multi-language-compatibility" class="level3">
+<h3 class="anchored" data-anchor-id="multi-language-compatibility">Multi-Language Compatibility</h3>
+<p>Wherever feasible, econdataverse interfaces are designed to work across languages. Consistency across languages enables analysts and researchers to incorporate these tools into various projects, regardless of language preference, and fosters a <strong>collaborative</strong>, multi-lingual community.</p>
+</section>
 </section>
 <section id="sponsors" class="level2">
 <h2 class="anchored" data-anchor-id="sponsors">Sponsors</h2>
@@ -177,11 +214,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="sponsor-logos">
 <p><a href="https://www.tidy-intelligence.com" target="_blank"> <img src="assets/img/logo-tidy-intelligence.png" alt="Tidy Intelligence Logo" class="logo"> </a> <a href="https://www.tealemery.com/" target="_blank"> <img src="assets/img/logo-teal-insights.png" alt="Teal Insights Logo" class="logo"> </a></p>
 </div>
-<p>If you want to <strong>financially support</strong> the development of a package for a <strong>data source of your choice</strong>, please get in touch.</p>
-</section>
-<section id="contact" class="level2">
-<h2 class="anchored" data-anchor-id="contact">Contact</h2>
-<p>Add contact form</p>
+<p>If you want to <strong>sponsor</strong> the development of a package for a <strong>data source of your choice</strong>, please get in touch with <a href="https://www.tidy-intelligence.com/contact.html">Christoph Scheuch</a>.</p>
 </section>
 </div>
 

@@ -26,33 +26,7 @@ An universe of open-source packages to seamlessly work with economic data in R a
 
  The landscape of economic data tools is **fragmented**, with packages differing widely in design, syntax, and usability, which can be a significant barrier for analysts and researchers who rely on multi-source data. These **inconsistencies** make it challenging to switch between sources and often require users to invest time in learning multiple interfaces or reformatting data, diverting attention from analysis and insight generation. 
 
- The econdataverse addresses these challenges by establishing a **standardized**, **cross-language** framework, enabling users to access, explore, and analyze economic data seamlessly. Through consistent function names, tidy data outputs, and multi-language support, the econdataverse exists to eliminate these common pain points, empowering users to **focus on research** and **analysis** rather than data wrangling.
-
-## Design Principles
-
-### Consistent Interface 
-
-Every package within the econdataverse follows a standardized interface with **predictable patterns**. For instance, functions for data retrieval are named consistently: `*_get` functions retrieve data from a specific source, `*_list` functions enumerate available resources.
-
-### Coding Style
-
-For R packages, the econdataverse adopts the tidyverse coding style and enforces it through `{lintr}`. For Python, we use the same naming conventions, but respect style conventions layout out in PEP 8. These styles enhance the **readability** of code and align with the practices of users familiar with the corresponding language. 
-
-### Tidy Data Outputs
-
-All packages return data in a tidy format, with each variable as a column, each observation as a row, and each data type as a table. Defaulting to tidy data ensures **compatibility** with popular data manipulation and visualization libraries in both R and Python. 
-
-### Comprehensive Unit Testing
-
-Each package is thoroughly tested through extensive unit tests, which ensure consistent functionality, protect against regressions, and help users **trust** that the packages will work as expected across different environments.
-
-### Open-Source Licensing
-
-All packages are released under the MIT License, which permits wide usage and modification. The MIT License promotes **transparency**, allowing users to freely adapt the tools for their specific needs while contributing improvements to the community.
-
-### Multi-Language Compatibility
-
-Wherever feasible, econdataverse interfaces are designed to work across languages. Consistency across languages enables analysts and researchers to incorporate these tools into various projects, regardless of language preference, and fosters a **collaborative**, multi-lingual community.
+ The econdataverse addresses these challenges by establishing a **standardized**, **cross-language** framework, enabling users to access, explore, and analyze economic data seamlessly. Through consistent function names, tidy data outputs, and multi-language support, the econdataverse eliminates these common pain points, empowering users to **focus on research** and **analysis** rather than data cleaning.
 
 ## Roadmap
 
@@ -80,9 +54,35 @@ The table below indicates which R or Python packages are currently released, in 
 
 ... and many more to come! 
 
-If you want to **contribute a package** that you maintain, please reach out.
+If you want to **contribute a package** that you maintain, please create an issue on [GitHub](https://github.com/tidy-intelligence/econdataverse/issues).
 
-## Sponsors
+## Design Principles
+
+### Consistent Interface 
+
+Every package within the econdataverse follows a standardized interface with **predictable patterns**. For instance, functions for data retrieval are named consistently: `*_get` functions retrieve data from a specific source, `*_list` functions enumerate available resources.
+
+### Coding Style
+
+For R packages, the econdataverse adopts the tidyverse coding style and enforces it through `{lintr}`. For Python, we use the same naming conventions, but respect style conventions layout out in PEP 8. These styles enhance the **readability** of code and align with the practices of users familiar with the corresponding language. 
+
+### Tidy Data Outputs
+
+All packages return data in a tidy format, with each variable as a column, each observation as a row, and each data type as a table. Defaulting to tidy data ensures **compatibility** with popular data manipulation and visualization libraries in both R and Python. 
+
+### Comprehensive Unit Testing
+
+Each package is thoroughly tested through extensive unit tests, which ensure consistent functionality, protect against regressions, and help users **trust** that the packages will work as expected across different environments.
+
+### Open-Source Licensing
+
+All packages are released under the MIT License, which permits wide usage and modification. The MIT License promotes **transparency**, allowing users to freely adapt the tools for their specific needs while contributing improvements to the community.
+
+### Multi-Language Compatibility
+
+Wherever feasible, econdataverse interfaces are designed to work across languages. Consistency across languages enables analysts and researchers to incorporate these tools into various projects, regardless of language preference, and fosters a **collaborative**, multi-lingual community.
+
+## Sponsors 
 
 The initiative is currently sponsored by
 
@@ -95,13 +95,6 @@ The initiative is currently sponsored by
   </a>
 </div>
 
-If you want to **financially support** the development of a package for a **data source of your choice**, please get in touch.
-
-## Contact
-
-Add contact form 
+If you want to **sponsor** the development of a package for a **data source of your choice**, please get in touch with [Christoph Scheuch](https://www.tidy-intelligence.com/contact.html).
 
 :::
-
-
-
