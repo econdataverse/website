@@ -16,7 +16,7 @@ format:
 ::: {#particles-text}
 ## econdataverse
 
-An universe of open-source packages to seamlessly work with economic data in R and Python
+A universe of open-source packages to work seamlessly with economic data in R and Python
 
 :::
 :::
