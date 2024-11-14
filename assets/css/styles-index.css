@@ -18,6 +18,9 @@ body {
     font-size: 40px;
     text-align: center;
     z-index: 2;
+    max-width: 680px;
+    margin: 16px;
+    padding: 8px;
 }
 
 #index-text {
@@ -27,7 +30,7 @@ body {
     color: var(--font-color);
     text-align: left;
     z-index: 2;
-    max-width: 50%;
+    max-width: 680px;
     margin: 16px;
     padding: 8px;
 }
@@ -104,11 +107,14 @@ h3 {
   /* Logo styling */
   .sponsor-logos {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 10px; 
+    font-size: 0;
   }
   
   .sponsor-logos .logo {
     width: 300px;
     max-width: 100%;
+    font-size: initial;
   }
