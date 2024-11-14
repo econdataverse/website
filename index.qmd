@@ -60,11 +60,20 @@ There will be a table here
 
 ## Sponsors
 
-Add logos of TIs
+Currently, the initiative is sponsored by
+
+<div class="sponsor-logos">
+  <a href="https://www.tidy-intelligence.com" target="_blank">
+    <img src="assets/img/logo-tidy-intelligence.png" alt="Tidy Intelligence Logo" class="logo">
+  </a>
+  <a href="https://www.tealemery.com/" target="_blank">
+    <img src="assets/img/logo-teal-insights.png" alt="Teal Insights Logo" class="logo">
+  </a>
+</div>
 
 ## Contribute
 
-Add contact form
+Add contact form 
 
 :::
 

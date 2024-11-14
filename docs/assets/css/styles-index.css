@@ -82,3 +82,15 @@ h2 {
     display: flex;
     flex-direction: column;
   }
+
+  /* Logo styling */
+  .sponsor-logos {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  .sponsor-logos .logo {
+    width: 300px;
+    max-width: 100%;
+  }
