@@ -32,20 +32,20 @@
     "href": "index.html#roadmap",
     "title": "econdataverse",
     "section": "Roadmap",
-    "text": "Roadmap\nThere will be a table here"
+    "text": "Roadmap\nThe table below indicates which R or Python packages are currently released, in development or planned.\n\n\n\nPlanned: 📝\nIn Development: 🛠️\n\n\n\nPre-release: 🚀\nReleased: ✅\n\n\n\n\n\n\n\nInstitution\nData Source\nR\nPython\n\n\n\n\nWorld Bank\nWorld Development Indicators (WDI)\n🚀 wbwdi\n🛠️ wbwdi\n\n\nWorld Bank\nInternational Debt Statistics (IDS)\n🚀 wbids\n📝\n\n\nOECD\nData API\n📝\n\n\n\nUnited Nations\nCOMTRADE API\n📝\n\n\n\n\n\n… and many more to come!\nIf you want to contribute a package that you maintain, please reach out."
   },
   {
     "objectID": "index.html#sponsors",
     "href": "index.html#sponsors",
     "title": "econdataverse",
     "section": "Sponsors",
-    "text": "Sponsors\nCurrently, the initiative is sponsored by"
+    "text": "Sponsors\nThe initiative is currently sponsored by\n\n     \n\nIf you want to financially support the development of a package for a data source of your choice, please get in touch."
   },
   {
-    "objectID": "index.html#contribute",
-    "href": "index.html#contribute",
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
     "title": "econdataverse",
-    "section": "Contribute",
-    "text": "Contribute\nAdd contact form"
+    "section": "Contact",
+    "text": "Contact\nAdd contact form"
   }
 ]

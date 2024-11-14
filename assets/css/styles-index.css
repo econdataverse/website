@@ -32,17 +32,6 @@ body {
     padding: 8px;
 }
 
-@media (max-width: 480px) {
-    #particles-text { 
-        max-width: 100%;
-        margin: 8px;
-    }
-    #index-text {
-        max-width: 100%;
-        margin: 8px;
-    }
-  }
-
 h2 {
     border-bottom: 0px;
 }
@@ -59,6 +48,20 @@ h2 {
     max-width: 50%;
     padding: 8px;
     font-size: 1em;
+}
+
+@media (max-width: 480px) {
+    #particles-text { 
+        max-width: 100%;
+        margin: 8px;
+        top: 0%;
+        left: 0%;
+        transform: translate(0%, 50%);
+    }
+    #index-text {
+        max-width: 100%;
+        margin: 8px;
+    }
 }
 
 /* Particles styling */
@@ -81,6 +84,17 @@ h2 {
     margin-top: 0px;
     display: flex;
     flex-direction: column;
+  }
+
+  /* Table styling */
+  .table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; 
+    width: 100%;
+  }
+  .table-wrapper table {
+    width: 100%;
+    min-width: 600px;
   }
 
   /* Logo styling */

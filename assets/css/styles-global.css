@@ -54,8 +54,8 @@
   }
   
   a {
-    text-decoration: none;
-    color: var(--main-color);
+    text-decoration: underline;
+    color: var(--font-black);
   }
   
   .responsive-iframe {

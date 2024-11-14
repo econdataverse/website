@@ -56,11 +56,35 @@ Wherever feasible, econdataverse interfaces are designed to work across language
 
 ## Roadmap
 
-There will be a table here
+The table below indicates which R or Python packages are currently released, in development or planned.
+
+:::: {.columns}
+::: {.column width="50%"}
+- Planned: 📝
+- In Development: 🛠️
+:::
+::: {.column width="50%"}
+- Pre-release: 🚀
+- Released: ✅
+:::
+:::: 
+
+:::: {.table-wrapper}
+| Institution    | Data Source                         | R                                                        | Python                                                    |
+|----------------|-------------------------------------|:--------------------------------------------------------:|:---------------------------------------------------------:|
+| World Bank     | World Development Indicators (WDI)  | 🚀 [wbwdi](https://github.com/tidy-intelligence/r-wbwdi) | 🛠️ [wbwdi](https://github.com/tidy-intelligence/py-wbwdi) |
+| World Bank     | International Debt Statistics (IDS) | 🚀 [wbids](https://github.com/Teal-Insights/r-wbids)     | 📝                                                        |
+| OECD           | Data API                            | 📝                                                       |                                                           |
+| United Nations | COMTRADE API                        | 📝                                                       |                                                           |
+::::
+
+... and many more to come! 
+
+If you want to **contribute a package** that you maintain, please reach out.
 
 ## Sponsors
 
-Currently, the initiative is sponsored by
+The initiative is currently sponsored by
 
 <div class="sponsor-logos">
   <a href="https://www.tidy-intelligence.com" target="_blank">
@@ -71,7 +95,9 @@ Currently, the initiative is sponsored by
   </a>
 </div>
 
-## Contribute
+If you want to **financially support** the development of a package for a **data source of your choice**, please get in touch.
+
+## Contact
 
 Add contact form 
 
