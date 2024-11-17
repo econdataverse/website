@@ -25,7 +25,7 @@
     "href": "index.html#roadmap",
     "title": "econdataverse",
     "section": "Roadmap",
-    "text": "Roadmap\nThe table below indicates which R or Python packages are currently released, in development or planned.\n\n\n\nPlanned: 📝\nIn Development: 🛠️\n\n\n\nPre-release: 🚀\nReleased: ✅\n\n\n\n\n\n\n\nInstitution\nData Source\nR\nPython\n\n\n\n\nWorld Bank\nWorld Development Indicators (WDI)\n🚀 wbwdi\n🛠️ wbwdi\n\n\nWorld Bank\nInternational Debt Statistics (IDS)\n🚀 wbids\n📝\n\n\nOECD\nData API\n📝\n\n\n\nUnited Nations\nCOMTRADE API\n📝\n\n\n\n\n\n… and many more to come!\nIf you want to contribute a package that you maintain, please create an issue on GitHub."
+    "text": "Roadmap\nThe table below indicates which R or Python packages are currently released, in development or planned.\n\n\n\nPlanned: 📝\nIn Development: 🛠️\n\n\n\nPre-release: 🚀\nReleased: ✅\n\n\n\n\n\n\n\nInstitution\nData Source\nR\nPython\n\n\n\n\nWorld Bank\nWorld Development Indicators (WDI)\n🚀 wbwdi\n🛠️ wbwdi\n\n\nWorld Bank\nInternational Debt Statistics (IDS)\n✅ wbids\n📝\n\n\nOECD\nData API\n📝\n\n\n\nUnited Nations\nCOMTRADE API\n📝\n\n\n\n\n\n… and many more to come!\nIf you want to contribute a package that you maintain, please create an issue on GitHub."
   },
   {
     "objectID": "index.html#principles",

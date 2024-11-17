@@ -47,7 +47,7 @@ The table below indicates which R or Python packages are currently released, in 
 | Institution    | Data Source                         | R                                                        | Python                                                    |
 |----------------|-------------------------------------|:--------------------------------------------------------:|:---------------------------------------------------------:|
 | World Bank     | World Development Indicators (WDI)  | 🚀 [wbwdi](https://github.com/tidy-intelligence/r-wbwdi) | 🛠️ [wbwdi](https://github.com/tidy-intelligence/py-wbwdi) |
-| World Bank     | International Debt Statistics (IDS) | 🚀 [wbids](https://github.com/Teal-Insights/r-wbids)     | 📝                                                        |
+| World Bank     | International Debt Statistics (IDS) | ✅ [wbids](https://github.com/Teal-Insights/r-wbids)     | 📝                                                        |
 | OECD           | Data API                            | 📝                                                       |                                                           |
 | United Nations | COMTRADE API                        | 📝                                                       |                                                           |
 ::::
