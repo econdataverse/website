@@ -95,6 +95,6 @@ The initiative is currently sponsored by
   </a>
 </div>
 
-If you want to **sponsor** the development of a package for a **data source of your choice**, please get in touch with [Christoph Scheuch](https://www.tidy-intelligence.com/contact.html#get-in-touch).
+If you want to **sponsor** the development of a package for a **data source of your choice**, please get in touch with [Christoph Scheuch](https://www.tidy-intelligence.com).
 
 :::
