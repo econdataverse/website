@@ -4,11 +4,12 @@
   }
   
   body {
-    font-family: "Gill Sans", "Segoe UI", "Arial", sans-serif;
+    font-family: "source-sans-3", sans-serif;
   }
   
   .navbar {
     background-color: var(--main-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .navbar a, 

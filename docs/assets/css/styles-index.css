@@ -114,7 +114,7 @@ h3 {
   }
   
   .sponsor-logos .logo {
-    width: 300px;
-    max-width: 100%;
+    max-width: 225px;
+    max-height: 75px;
     font-size: initial;
   }

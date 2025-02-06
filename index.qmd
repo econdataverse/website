@@ -48,8 +48,10 @@ The table below indicates which R or Python packages are currently released, in 
 |----------------|-------------------------------------|:--------------------------------------------------------:|:---------------------------------------------------------:|
 | World Bank     | World Development Indicators (WDI)  | 🚀 [wbwdi](https://github.com/tidy-intelligence/r-wbwdi) | ✅ [wbwdi](https://github.com/tidy-intelligence/py-wbwdi) |
 | World Bank     | International Debt Statistics (IDS) | ✅ [wbids](https://github.com/Teal-Insights/r-wbids)     | 📝                                                        |
-| OECD           | Data API                            | 📝                                                       |                                                           |
-| United Nations | COMTRADE API                        | 📝                                                       |                                                           |
+| IMF | World Economic Outlook (WEO) | 🛠️ [imfweo](https://github.com/Teal-Insights/imfweo) | ✅ [imf-reader](https://pypi.org/project/imf-reader/) |
+| IMF | Special Drawing Rights (SDR) |  | ✅ [imf-reader](https://pypi.org/project/imf-reader/) |
+| OECD | Official Development Assistance (ODA) | | ✅ [oda-reader](https://github.com/ONEcampaign/oda_reader) |
+| UNESCO | Institute of Statistics (UIS) |  | ✅ [unesco-reader](https://pypi.org/project/unesco-reader/2.0.0/) |
 ::::
 
 ... and many more to come! 
@@ -82,9 +84,9 @@ All packages are released under the MIT License, which permits wide usage and mo
 
 Wherever feasible, econdataverse interfaces are designed to work across languages. Consistency across languages enables analysts and researchers to incorporate these tools into various projects, regardless of language preference, and fosters a **collaborative**, multi-lingual community.
 
-## Sponsors 
+## Supporters 
 
-The initiative is currently sponsored by
+The initiative is currently supported by
 
 <div class="sponsor-logos">
   <a href="https://www.tidy-intelligence.com" target="_blank">
@@ -93,8 +95,11 @@ The initiative is currently sponsored by
   <a href="https://www.tealemery.com/" target="_blank">
     <img src="assets/img/logo-teal-insights.png" alt="Teal Insights Logo" class="logo">
   </a>
+  <a href="https://www.one.org/" target="_blank">
+    <img src="assets/img/logo-one-campaign.png" alt="One Campaign Logo" class="logo">
+  </a>
 </div>
 
-If you want to **sponsor** the development of a package for a **data source of your choice**, please get in touch with [Christoph Scheuch](https://www.tidy-intelligence.com).
+If you want to **support** the development of a package for a **data source of your choice**, please get in touch with [Christoph Scheuch](https://www.tidy-intelligence.com).
 
 :::

@@ -25,8 +25,8 @@ website:
         text: Roadmap
       - href: index.qmd#principles
         text: Principles
-      - href: index.qmd#sponsors
-        text: Sponsors
+      - href: index.qmd#supporters
+        text: Supporters
 
 format:
   html:
@@ -35,4 +35,5 @@ format:
     toc: false
     smooth-scroll: true
     from: markdown+emoji
+    include-in-header: assets/html/header-font.html
     include-after-body: assets/html/bottom-footer.html
