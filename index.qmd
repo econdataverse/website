@@ -88,6 +88,7 @@ Wherever feasible, econdataverse interfaces are designed to work across language
 
 The initiative is currently supported by
 
+```{=html}
 <div class="sponsor-logos">
   <a href="https://www.tidy-intelligence.com" target="_blank">
     <img src="assets/img/logo-tidy-intelligence.png" alt="Tidy Intelligence Logo" class="logo">
@@ -98,7 +99,11 @@ The initiative is currently supported by
   <a href="https://www.one.org/" target="_blank">
     <img src="assets/img/logo-one-campaign.png" alt="One Campaign Logo" class="logo">
   </a>
+   <a href="https://promptlytechnologies.com/" target="_blank">
+    <img src="assets/img/logo-promptly-technologies.png" alt="Promptly Technologies Logo" class="logo">
+  </a>
 </div>
+```
 
 If you want to **support** the development of a package for a **data source of your choice**, please get in touch with [Christoph Scheuch](https://www.tidy-intelligence.com).
 
