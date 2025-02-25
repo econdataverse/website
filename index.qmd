@@ -47,10 +47,11 @@ The table below indicates which R or Python packages are currently released, in 
 | Institution    | Data Source                         | R                                                        | Python                                                    |
 |----------------|-------------------------------------|:--------------------------------------------------------:|:---------------------------------------------------------:|
 | World Bank     | World Development Indicators (WDI)  | 🚀 [wbwdi](https://github.com/tidy-intelligence/r-wbwdi) | ✅ [wbwdi](https://github.com/tidy-intelligence/py-wbwdi) |
-| World Bank     | International Debt Statistics (IDS) | ✅ [wbids](https://github.com/Teal-Insights/r-wbids)     | 📝                                                        |
+| World Bank     | International Debt Statistics (IDS) | ✅ [wbids](https://github.com/Teal-Insights/r-wbids)     |                                                       |
 | IMF | World Economic Outlook (WEO) | 🛠️ [imfweo](https://github.com/Teal-Insights/imfweo) | ✅ [imf-reader](https://pypi.org/project/imf-reader/) |
 | IMF | Special Drawing Rights (SDR) |  | ✅ [imf-reader](https://pypi.org/project/imf-reader/) |
 | OECD | Official Development Assistance (ODA) | | ✅ [oda-reader](https://github.com/ONEcampaign/oda_reader) |
+| Our World In Data | Chart API | 🛠️ [owidapi](https://github.com/tidy-intelligence/r-owidapi) | |
 | UNESCO | Institute of Statistics (UIS) |  | ✅ [unesco-reader](https://pypi.org/project/unesco-reader/2.0.0/) |
 ::::
 
