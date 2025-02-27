@@ -61,7 +61,7 @@ In addition, there are additional packages that facilitate economic analysis:
 
 Challenge | R                                                        | Python                                                    |
 |----------------|:--------------------------------------------------------:|:---------------------------------------------------------:|
-| Combining Data Sources | 🛠️ [econtools](https://github.com/tidy-intelligence/econtools) | ✅ [bblocks](https://github.com/ONEcampaign/bblocks) |
+| Combining Data Sources | 🛠️ [econtools](https://github.com/tidy-intelligence/r-econtools) | ✅ [bblocks](https://github.com/ONEcampaign/bblocks) |
 | Standardizing Identifiers | 🛠️ [econid](https://github.com/Teal-Insights/r-econid) | |
 
 If you want to **contribute a package** that you maintain, please create an issue on [GitHub](https://github.com/tidy-intelligence/econdataverse/issues).
