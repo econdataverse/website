@@ -52,7 +52,7 @@ The table below indicates which R or Python packages are currently released, in 
 | IMF | Special Drawing Rights (SDR) |  | ✅ [imf-reader](https://pypi.org/project/imf-reader/) |
 | OECD | Official Development Assistance (ODA) | | ✅ [oda-reader](https://github.com/ONEcampaign/oda_reader) |
 | Our World In Data | Chart API | 🛠️ [owidapi](https://github.com/tidy-intelligence/r-owidapi) | |
-| UNESCO | Institute of Statistics (UIS) | 🛠️ [uisapi](https://github.com/tidy-intelligence/r-uisapi) | ✅ [unesco-reader](https://pypi.org/project/unesco-reader) |
+| UNESCO | Institute of Statistics (UIS) API | 🛠️ [uisapi](https://github.com/tidy-intelligence/r-uisapi) | ✅ [unesco-reader](https://pypi.org/project/unesco-reader) |
 ::::
 
 ... and many more to come! 
