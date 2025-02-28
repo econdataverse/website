@@ -51,13 +51,13 @@ The table below indicates which R or Python packages are currently released, in 
 | IMF | World Economic Outlook (WEO) | 🛠️ [imfweo](https://github.com/Teal-Insights/imfweo) | ✅ [imf-reader](https://pypi.org/project/imf-reader/) |
 | IMF | Special Drawing Rights (SDR) |  | ✅ [imf-reader](https://pypi.org/project/imf-reader/) |
 | OECD | Official Development Assistance (ODA) | | ✅ [oda-reader](https://github.com/ONEcampaign/oda_reader) |
-| Our World In Data | Chart API | 🛠️ [owidapi](https://github.com/tidy-intelligence/r-owidapi) | |
+| Our World In Data | Chart API | ✅ [owidapi](https://github.com/tidy-intelligence/r-owidapi) | |
 | UNESCO | Institute of Statistics (UIS) API | 🛠️ [uisapi](https://github.com/tidy-intelligence/r-uisapi) | ✅ [unesco-reader](https://pypi.org/project/unesco-reader) |
 ::::
 
 ... and many more to come! 
 
-In addition, there are additional packages that facilitate economic analysis: 
+In addition, there are packages that facilitate economic analysis: 
 
 Challenge | R                                                        | Python                                                    |
 |----------------|:--------------------------------------------------------:|:---------------------------------------------------------:|
