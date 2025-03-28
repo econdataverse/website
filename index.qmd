@@ -28,41 +28,28 @@ While much economic data is accessible through public APIs, many of it is only a
 
 The econdataverse addresses these challenges by establishing a **standardized**, **cross-language** framework, enabling users to access, explore, and analyze economic data seamlessly, regardless of its original format. By offering consistent function names, tidy data outputs, and multi-language compatibility, the econdataverse aims to eliminate these common obstacles, empowering users to **focus on research** and **analysis** rather than data acquisition and cleaning.
 
-## Roadmap
+## Ecosystem
 
-The table below indicates which R or Python packages are currently released, in development or planned.
-
-:::: {.columns}
-::: {.column width="50%"}
-- Planned: 📝
-- In Development: 🛠️
-:::
-::: {.column width="50%"}
-- Pre-release: 🚀
-- Released: ✅
-:::
-:::: 
+The ecosystem is the result of a curated collection of R packages and Python libraries developed in parallel by the [ONE Campaign](https://github.com/ONEcampaign), [Tidy Intelligence](https://github.com/tidy-intelligence), [Teal Insights](https://github.com/Teal-Insights), and [Promptly Technologies](https://github.com/Promptly-Technologies-LLC). 
 
 :::: {.table-wrapper}
 | Institution    | Data Source                         | R                                                        | Python                                                    |
 |----------------|-------------------------------------|:--------------------------------------------------------:|:---------------------------------------------------------:|
-| World Bank     | World Development Indicators (WDI)  | ✅ [wbwdi](https://github.com/tidy-intelligence/r-wbwdi) | ✅ [wbwdi](https://github.com/tidy-intelligence/py-wbwdi) |
-| World Bank     | International Debt Statistics (IDS) | ✅ [wbids](https://github.com/Teal-Insights/r-wbids)     |                                                       |
-| IMF | World Economic Outlook (WEO) | 🛠️ [imfweo](https://github.com/Teal-Insights/imfweo) | ✅ [imf-reader](https://pypi.org/project/imf-reader/) |
-| IMF | Special Drawing Rights (SDR) |  | ✅ [imf-reader](https://pypi.org/project/imf-reader/) |
-| OECD | Official Development Assistance (ODA) | | ✅ [oda-reader](https://github.com/ONEcampaign/oda_reader) |
-| Our World In Data | Chart API | ✅ [owidapi](https://github.com/tidy-intelligence/r-owidapi) | |
-| UNESCO | Institute of Statistics (UIS) API | ✅ [uisapi](https://github.com/tidy-intelligence/r-uisapi) | ✅ [unesco-reader](https://pypi.org/project/unesco-reader) |
+| World Bank     | World Development Indicators (WDI)  | [wbwdi](https://github.com/tidy-intelligence/r-wbwdi) | [wbwdi](https://github.com/tidy-intelligence/py-wbwdi) |
+| World Bank     | International Debt Statistics (IDS) | [wbids](https://github.com/Teal-Insights/r-wbids)     |                                                       |
+| IMF | World Economic Outlook (WEO) | [imfweo](https://github.com/Teal-Insights/imfweo) | [imf-reader](https://github.com/ONEcampaign/imf-reader) |
+| IMF | Special Drawing Rights (SDR) |  | [imf-reader](https://github.com/ONEcampaign/imf-reader) |
+| OECD | Official Development Assistance (ODA) | | [oda-reader](https://github.com/ONEcampaign/oda_reader) |
+| Our World In Data | Chart API | [owidapi](https://github.com/tidy-intelligence/r-owidapi) | |
+| UNESCO | Institute of Statistics (UIS) API | [uisapi](https://github.com/tidy-intelligence/r-uisapi) | [unesco-reader](https://pypi.org/project/unesco-reader) |
 ::::
-
-... and many more to come! 
 
 In addition, there are packages that facilitate economic analysis: 
 
 Challenge | R                                                        | Python                                                    |
 |----------------|:--------------------------------------------------------:|:---------------------------------------------------------:|
-| Combining Data Sources | 🛠️ [econtools](https://github.com/tidy-intelligence/r-econtools) | ✅ [bblocks](https://github.com/ONEcampaign/bblocks) |
-| Standardizing Identifiers | 🛠️ [econid](https://github.com/Teal-Insights/r-econid) | |
+| Combining Data Sources | [econtools](https://github.com/tidy-intelligence/r-econtools) | [bblocks](https://github.com/ONEcampaign/bblocks) |
+| Standardizing Identifiers | [econid](https://github.com/Teal-Insights/r-econid) | |
 
 If you want to **contribute a package** that you maintain, please create an issue on [GitHub](https://github.com/tidy-intelligence/econdataverse/issues).
 
@@ -92,9 +79,9 @@ All packages are released under the MIT License, which permits wide usage and mo
 
 Wherever feasible, econdataverse interfaces are designed to work across languages. Consistency across languages enables analysts and researchers to incorporate these tools into various projects, regardless of language preference, and fosters a **collaborative**, multi-lingual community.
 
-## Supporters 
+## Collaborators 
 
-The initiative is currently supported by
+The following companies currently collaborate on building the econdataverse ecosystem: 
 
 ```{=html}
 <div class="sponsor-logos">
@@ -113,6 +100,6 @@ The initiative is currently supported by
 </div>
 ```
 
-If you want to **support** the development of a package for a **data source of your choice**, please get in touch with [Christoph Scheuch](https://www.tidy-intelligence.com).
+If you want to **request** the development of a package for a **data source of your choice**, please get in touch with [Christoph Scheuch](https://www.tidy-intelligence.com).
 
 :::
