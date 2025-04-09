@@ -21,12 +21,12 @@ website:
     left:
       - href: index.qmd#goal
         text: Goal
-      - href: index.qmd#roadmap
-        text: Roadmap
+      - href: index.qmd#ecosystem
+        text: Ecosystem
       - href: index.qmd#principles
         text: Principles
-      - href: index.qmd#supporters
-        text: Supporters
+      - href: index.qmd#collaborators
+        text: Collaborators
 
 format:
   html:
