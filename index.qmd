@@ -1,6 +1,6 @@
 ---
 metadata:
-  pagetitle: "econdataverse"
+  pagetitle: "EconDataverse"
   description-meta: "An ecosystem of packages to work with economic data in R and Python."
 format: 
   html:
@@ -14,7 +14,7 @@ format:
 
 ::: {#particles-js}
 ::: {#particles-text}
-## econdataverse
+## EconDataverse
 
 A universe of open-source packages to work seamlessly with economic data in R and Python
 
@@ -26,7 +26,7 @@ A universe of open-source packages to work seamlessly with economic data in R an
 
 While much economic data is accessible through public APIs, many of it is only available in static formats, such as spreadsheets or reports, requiring manual downloading or scraping. The landscape of economic data tools is also **highly fragmented**, with packages that vary significantly in design, syntax, and usability. These inconsistencies create significant inefficiencies for analysts and researchers who rely on multi-source data. 
 
-The econdataverse addresses these challenges by establishing a **standardized**, **cross-language** framework, enabling users to access, explore, and analyze economic data seamlessly, regardless of its original format. By offering consistent function names, tidy data outputs, and multi-language compatibility, the econdataverse aims to eliminate these common obstacles, empowering users to **focus on research** and **analysis** rather than data acquisition and cleaning.
+The EconDataverse addresses these challenges by establishing a **standardized**, **cross-language** framework, enabling users to access, explore, and analyze economic data seamlessly, regardless of its original format. By offering consistent function names, tidy data outputs, and multi-language compatibility, the EconDataverse aims to eliminate these common obstacles, empowering users to **focus on research** and **analysis** rather than data acquisition and cleaning.
 
 ## Ecosystem
 
@@ -57,11 +57,11 @@ If you want to **contribute a package** that you maintain, please create an issu
 
 ### Consistent Interface 
 
-Every package within the econdataverse follows a standardized interface with **predictable patterns**. For instance, functions for data retrieval are named consistently: `*_get` functions retrieve data from a specific source, `*_list` functions enumerate available resources.
+Every package within the EconDataverse follows a standardized interface with **predictable patterns**. For instance, functions for data retrieval are named consistently: `*_get` functions retrieve data from a specific source, `*_list` functions enumerate available resources.
 
 ### Coding Style
 
-For R packages, the econdataverse adopts the tidyverse coding style and enforces it through `{lintr}`. For Python, we use the same naming conventions, but respect style conventions layed out in PEP 8. These styles enhance the **readability** of code and align with the practices of users familiar with the corresponding language. 
+For R packages, the EconDataverse adopts the tidyverse coding style and enforces it through `{lintr}`. For Python, we use the same naming conventions, but respect style conventions layed out in PEP 8. These styles enhance the **readability** of code and align with the practices of users familiar with the corresponding language. 
 
 ### Tidy Data Outputs
 
@@ -77,11 +77,11 @@ All packages are released under the MIT License, which permits wide usage and mo
 
 ### Multi-Language Compatibility
 
-Wherever feasible, econdataverse interfaces are designed to work across languages. Consistency across languages enables analysts and researchers to incorporate these tools into various projects, regardless of language preference, and fosters a **collaborative**, multi-lingual community.
+Wherever feasible, EconDataverse interfaces are designed to work across languages. Consistency across languages enables analysts and researchers to incorporate these tools into various projects, regardless of language preference, and fosters a **collaborative**, multi-lingual community.
 
 ## Collaborators 
 
-The following companies currently collaborate on building the econdataverse ecosystem: 
+The following companies currently collaborate on building the EconDataverse ecosystem: 
 
 ```{=html}
 <div class="sponsor-logos">
