@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "econdataverse"
+  title: "EconDataverse"
   description: "An ecosystem of packages to work with economic data in R and Python"
   site-url: https://www.econdataverse.org
   search: false

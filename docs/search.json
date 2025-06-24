@@ -2,42 +2,42 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "econdataverse",
+    "title": "EconDataverse",
     "section": "",
     "text": "A universe of open-source packages to work seamlessly with economic data in R and Python"
   },
   {
     "objectID": "index.html#econdataverse",
     "href": "index.html#econdataverse",
-    "title": "econdataverse",
+    "title": "EconDataverse",
     "section": "",
     "text": "A universe of open-source packages to work seamlessly with economic data in R and Python"
   },
   {
     "objectID": "index.html#goal",
     "href": "index.html#goal",
-    "title": "econdataverse",
+    "title": "EconDataverse",
     "section": "Goal",
     "text": "Goal\nWhile much economic data is accessible through public APIs, many of it is only available in static formats, such as spreadsheets or reports, requiring manual downloading or scraping. The landscape of economic data tools is also highly fragmented, with packages that vary significantly in design, syntax, and usability. These inconsistencies create significant inefficiencies for analysts and researchers who rely on multi-source data.\nThe EconDataverse addresses these challenges by establishing a standardized, cross-language framework, enabling users to access, explore, and analyze economic data seamlessly, regardless of its original format. By offering consistent function names, tidy data outputs, and multi-language compatibility, the EconDataverse aims to eliminate these common obstacles, empowering users to focus on research and analysis rather than data acquisition and cleaning."
   },
   {
     "objectID": "index.html#ecosystem",
     "href": "index.html#ecosystem",
-    "title": "econdataverse",
+    "title": "EconDataverse",
     "section": "Ecosystem",
     "text": "Ecosystem\nThe ecosystem is the result of a curated collection of R packages and Python libraries developed in parallel by the ONE Campaign, Tidy Intelligence, Teal Insights, and Promptly Technologies.\n\n\n\n\nInstitution\nData Source\nR\nPython\n\n\n\n\nWorld Bank\nWorld Development Indicators (WDI)\nwbwdi\nwbwdi\n\n\nWorld Bank\nInternational Debt Statistics (IDS)\nwbids\n\n\n\nIMF\nWorld Economic Outlook (WEO)\nimfweo\nimf-reader\n\n\nIMF\nSpecial Drawing Rights (SDR)\n\nimf-reader\n\n\nOECD\nOfficial Development Assistance (ODA)\n\noda-reader\n\n\nOur World In Data\nChart API\nowidapi\n\n\n\nUNESCO\nInstitute of Statistics (UIS) API\nuisapi\nunesco-reader\n\n\n\n\nIn addition, there are packages that facilitate economic analysis:\n\n\n\nChallenge\nR\nPython\n\n\n\n\nCombining Data Sources\necontools\nbblocks\n\n\nStandardizing Identifiers\neconid\n\n\n\n\nIf you want to contribute a package that you maintain, please create an issue on GitHub."
   },
   {
     "objectID": "index.html#principles",
     "href": "index.html#principles",
-    "title": "econdataverse",
+    "title": "EconDataverse",
     "section": "Principles",
     "text": "Principles\n\nConsistent Interface\nEvery package within the EconDataverse follows a standardized interface with predictable patterns. For instance, functions for data retrieval are named consistently: *_get functions retrieve data from a specific source, *_list functions enumerate available resources.\n\n\nCoding Style\nFor R packages, the EconDataverse adopts the tidyverse coding style and enforces it through {lintr}. For Python, we use the same naming conventions, but respect style conventions layed out in PEP 8. These styles enhance the readability of code and align with the practices of users familiar with the corresponding language.\n\n\nTidy Data Outputs\nAll packages return data in a tidy format, with each variable as a column, each observation as a row, and each data type as a table. Defaulting to tidy data ensures compatibility with popular data manipulation and visualization libraries in both R and Python.\n\n\nComprehensive Unit Testing\nEach package is thoroughly tested through extensive unit tests, which ensure consistent functionality, protect against regressions, and help users trust that the packages will work as expected across different environments.\n\n\nOpen-Source Licensing\nAll packages are released under the MIT License, which permits wide usage and modification. The MIT License promotes transparency, allowing users to freely adapt the tools for their specific needs while contributing improvements to the community.\n\n\nMulti-Language Compatibility\nWherever feasible, EconDataverse interfaces are designed to work across languages. Consistency across languages enables analysts and researchers to incorporate these tools into various projects, regardless of language preference, and fosters a collaborative, multi-lingual community."
   },
   {
     "objectID": "index.html#collaborators",
     "href": "index.html#collaborators",
-    "title": "econdataverse",
+    "title": "EconDataverse",
     "section": "Collaborators",
     "text": "Collaborators\nThe following companies currently collaborate on building the EconDataverse ecosystem:\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n   \n    \n  \n\nIf you want to request the development of a package for a data source of your choice, please get in touch with Christoph Scheuch."
   }
