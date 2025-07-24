@@ -39,7 +39,7 @@ The ecosystem is the result of a curated collection of R packages and Python lib
 | World Bank     | International Debt Statistics (IDS) | [wbids](https://github.com/Teal-Insights/r-wbids)     |                                                       |
 | IMF | World Economic Outlook (WEO) | [imfweo](https://github.com/Teal-Insights/imfweo) | [imf-reader](https://github.com/ONEcampaign/imf-reader) |
 | IMF | Special Drawing Rights (SDR) |  | [imf-reader](https://github.com/ONEcampaign/imf-reader) |
-| OECD | Official Development Assistance (ODA) | | [oda-reader](https://github.com/ONEcampaign/oda_reader) |
+| OECD | Official Development Assistance (ODA) | [oecdoda](https://github.com/tidy-intelligence/r-oecdoda) | [oda-reader](https://github.com/ONEcampaign/oda_reader) |
 | Our World In Data | Chart API | [owidapi](https://github.com/tidy-intelligence/r-owidapi) | |
 | UNESCO | Institute of Statistics (UIS) API | [uisapi](https://github.com/tidy-intelligence/r-uisapi) | [unesco-reader](https://pypi.org/project/unesco-reader) |
 ::::
