@@ -57,7 +57,7 @@ If you want to **contribute a package** that you maintain, please create an issu
 
 ### Consistent Interface 
 
-Every package within the EconDataverse follows a standardized interface with **predictable patterns**. For instance, functions for data retrieval are named consistently: `*_get` functions retrieve data from a specific source, `*_list` functions enumerate available resources.
+Every package within the EconDataverse follows a standardized interface with **predictable patterns**. For instance, functions for data retrieval are named consistently: `*_get` functions retrieve data from a specific online source, `*_list` functions enumerate pre-computed resources.
 
 ### Coding Style
 
