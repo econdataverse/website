@@ -1,3 +1,1 @@
-Sitemap: https://www.tidy-intelligence.org/sitemap.xml
-User-agent: GPTBot
-Disallow: /
+Sitemap: https://www.econdataverse.org/sitemap.xml

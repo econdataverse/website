@@ -34,26 +34,26 @@ The ecosystem is the result of a curated collection of R packages and Python lib
 ::: table-wrapper
 | Institution | Data Source | R | Python |
 |------------------|------------------|:----------------:|:-----------------:|
-| EconDataverse | Various | [econdatasets](https://tidy-intelligence.github.io/r-econdatasets/) |  |
-| World Bank | World Development Indicators (WDI) | [wbwdi](https://github.com/tidy-intelligence/r-wbwdi) | [wbwdi](https://github.com/tidy-intelligence/py-wbwdi) |
+| EconDataverse | Various | [econdatasets](https://econdataverse.github.io/r-econdatasets/) |  |
+| World Bank | World Development Indicators (WDI) | [wbwdi](https://econdataverse.github.io/r-wbwdi) | [wbwdi](https://econdataverse.github.io/py-wbwdi) |
 | World Bank | International Debt Statistics (IDS) | [wbids](https://github.com/Teal-Insights/r-wbids) |  |
 | IMF | SDMX 3.0 Data API | [imfapi](https://teal-insights.github.io/r-imfapi/) |  |
 | IMF | World Economic Outlook (WEO) | [imfweo](https://github.com/Teal-Insights/imfweo) | [imf-reader](https://github.com/ONEcampaign/imf-reader) |
 | IMF | Special Drawing Rights (SDR) |  | [imf-reader](https://github.com/ONEcampaign/imf-reader) |
-| OECD | Official Development Assistance (ODA) | [oecdoda](https://github.com/tidy-intelligence/r-oecdoda) | [oda-reader](https://github.com/ONEcampaign/oda_reader) |
-| Our World In Data | Chart API | [owidapi](https://github.com/tidy-intelligence/r-owidapi) |  |
-| UNESCO | Institute of Statistics (UIS) API | [uisapi](https://github.com/tidy-intelligence/r-uisapi) | [unesco-reader](https://pypi.org/project/unesco-reader) |
+| OECD | Official Development Assistance (ODA) | [oecdoda](https://econdataverse.github.io/r-oecdoda) | [oda-reader](https://github.com/ONEcampaign/oda_reader) |
+| Our World In Data | Chart API | [owidapi](https://econdataverse.github.io/r-owidapi) |  |
+| UNESCO | Institute of Statistics (UIS) API | [uisapi](https://econdataverse.github.io/r-uisapi) | [unesco-reader](https://pypi.org/project/unesco-reader) |
 :::
 
 In addition, there are packages that facilitate economic analysis:
 
 | Challenge | R | Python |
 |------------------|:-------------------------:|:-------------------------:|
-| Metapackage | [econdateverse](https://tidy-intelligence.github.io/r-econdataverse/) |  |
-| Combining Data Sources | [econtools](https://github.com/tidy-intelligence/r-econtools) | [bblocks](https://github.com/ONEcampaign/bblocks) |
+| Metapackage | [econdateverse](https://econdataverse.github.io/r-econdataverse/) |  |
+| Combining Data Sources | [econtools](https://econdataverse.github.io/r-econtools) | [bblocks](https://github.com/ONEcampaign/bblocks) |
 | Standardizing Identifiers | [econid](https://github.com/Teal-Insights/r-econid) |  |
 
-If you want to **contribute a package** that you maintain, please create an issue on [GitHub](https://github.com/econdataverse/website/issues).
+If you want to **contribute a package** that you maintain, please create an issue on [GitHub](https://github.com/econdataverse/governance/issues).
 
 ## Principles
 
